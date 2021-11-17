@@ -72,22 +72,22 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 
-INNEXIA_IMG = "https://telegra.ph/file/76c88c50c9b1611d9cddb.jpg"
+INNEXIA_IMG = "https://telegra.ph/file/7c4ff0cca8a4ccd7a0b13.jpg"
 
 PM_START_TEXT = """
-**ᴛʜᴇ ʙᴀʙʏɢɪʀʟ ʀᴏʙᴏᴛ**\n┏━━━━━━━━━━━━━━━━\n╭──────────────\nㅤʜᴇʏ, ɪ ᴀᴍ ʙᴀʙʏɢɪʀʟ , ʜᴇʀᴇ ᴛᴏ\nㅤᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ! 🦋[ㅤ](https://telegra.ph/file/d26c0d782bf5b4711ef45.jpg)\n╰──────────────\n╭──────────────\nㅤᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ᴛᴏ\nㅤᴋɴᴏᴡ ᴀʙᴏᴜᴛ ᴍʏ ғᴜʟʟ ғᴜɴᴄᴛɪᴏɴs.\n╰──────────────\n┗━━━━━━━━━━━━━━━━\n\n[@ᴛᴇᴀᴍʙᴀʙʏɢɪʀʟ](http://t.me/desk_BG)
+**ᴛʜᴇ ᴀɴɢᴇʟɪɴᴀ ʀᴏʙᴏᴛ**\n┏━━━━━━━━━━━━━━━━\n╭──────────────\nㅤʜᴇʏ, ɪ ᴀᴍ ᴀɴɢᴇʟɪɴᴀ , ʜᴇʀᴇ ᴛᴏ\nㅤᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ! 🦋[ㅤ](https://telegra.ph/file/f662f60d8aaa650b0b0c4.jpg)\n╰──────────────\n╭──────────────\nㅤᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ᴛᴏ\nㅤᴋɴᴏᴡ ᴀʙᴏᴜᴛ ᴍʏ ғᴜʟʟ ғᴜɴᴄᴛɪᴏɴs.\n╰──────────────\n┗━━━━━━━━━━━━━━━━\n\n[@ᴛᴇᴀᴍᴀɴɢᴇʟɪɴᴀ](http://t.me/angelina_desk)
 """
 
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="🔥 ᴀᴅᴅ ʙᴀʙʏɢɪʀʟ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ! 🦋", url="http://t.me/TheBG_bot?startgroup=true"),
+            text="🔥 ᴀᴅᴅ ᴀɴɢᴇʟɪɴᴀ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ! 🦋", url="http://t.me/AngelinaProBot?startgroup=true"),
     ],
     
     [
         InlineKeyboardButton(
-            text="ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ 📢 ", url=f"https://t.me/TheBG_news"
+            text="ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ 📢 ", url=f"https://t.me/Angelina_Updates"
         ),
         InlineKeyboardButton(text="❔ ᴍʏ ɴᴇᴛᴡᴏʀᴋ",url=f"https://t.me/TheWarriorsNetwork"),
     ],
@@ -96,7 +96,7 @@ buttons = [
         InlineKeyboardButton(
             text="ϟ ᴄʜᴀᴛ ϟ", url=f"http://t.me/chat_buzz"
         ),
-        InlineKeyboardButton(text="⩥sᴜᴘᴘᴏʀᴛ⩤", url=f"https://t.me/desk_BG"),
+        InlineKeyboardButton(text="⩥sᴜᴘᴘᴏʀᴛ⩤", url=f"https://t.me/angelina_desk"),
     ],
     [
   InlineKeyboardButton(text="❔ʜᴇʟᴘ ", callback_data="help_back"),
@@ -224,7 +224,7 @@ def start(update: Update, context: CallbackContext):
             ),
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="t.me/desk_BG")]]
+                [[InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="t.me/angelina_desk")]]
             ),
         )
         
@@ -356,8 +356,8 @@ def innexia_about_callback(update, context):
     query = update.callback_query
     if query.data == "innexia_":
         query.message.edit_text(
-            text="""𝗕𝗮𝗯𝘆𝗴𝗶𝗿𝗹 - A bot to manage your groups with additional features!
-            \nHere's the basic help regarding use of BabyGirl !
+            text="""𝗔𝗻𝗴𝗲𝗹𝗶𝗻𝗮- A bot to manage your groups with additional features!
+            \nHere's the basic help regarding use of Angelina😍 !
             
             \nAlmost all modules usage defined in the help menu, checkout by sending `/help`
             \nReport error/bugs click the Button""",
@@ -367,7 +367,7 @@ def innexia_about_callback(update, context):
                 [
                     [
                         InlineKeyboardButton(
-                            text="Bᴜɢ'ꜱ", url="t.me/desk_BG"
+                            text="Bᴜɢ'ꜱ", url="t.me/angelina_desk"
                         ),
                         InlineKeyboardButton(
                             text="Bᴏᴛ Lɪꜱᴛ", url="t.me/TheBG_news"
@@ -403,7 +403,7 @@ def innexia_about_callback(update, context):
                     InlineKeyboardButton(text="Nᴏᴛᴇꜱ", callback_data="TheBG_notes"),
                  ],
                  [
-                    InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", callback_data="desk_BG"),
+                    InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", callback_data="angelina_desk"),
                     InlineKeyboardButton(text="Credit", callback_data="TheBG_dev"),
                  ],
                  [
@@ -416,7 +416,7 @@ def innexia_about_callback(update, context):
     elif query.data == "innexia_admin":
         query.message.edit_text(
             text=f"*Let's make your group bit effective now*"
-            f"\nCongragulations, BabyGirl now ready to manage your group."
+            f"\nCongragulations, Angelina😍 now ready to manage your group."
             f"\n\n*Admin Tools*"
             f"\nBasic Admin tools help you to protect and powerup your group."
             f"\nYou can ban members, Kick members, Promote someone as admin through commands of bot."
@@ -453,7 +453,7 @@ def innexia_about_callback(update, context):
                     InlineKeyboardButton(text="Fᴇᴅ", url="t.me/TheBGFedChat"),
                  ],
                  [
-                    InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="t.me/desk_BG"),
+                    InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="t.me/angelina_desk"),
                     InlineKeyboardButton(text="Uᴘᴅᴀᴛᴇꜱ", url="https://t.me/TheBG_news"),
                  ],
                  [
@@ -466,7 +466,7 @@ def innexia_about_callback(update, context):
     elif query.data == "TheBG_devs":
         query.message.edit_text(
             text=f"<b> CREDIT FOR TheBG DEVS</b>\n"
-            f"\nHere Some Developers Helping in Making The The BabyGirl Robot",
+            f"\nHere Some Developers Helping in Making The The Angelina😍 Robot",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
                 [
@@ -491,7 +491,7 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text="""😬Project Private! Contact My Developer Team at @desk_BG .""",
+            text="""😬Project Private! Contact My Developer Team at @angelina_desk .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
