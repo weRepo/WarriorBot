@@ -23,8 +23,8 @@ async def lego(event):
     img = Image.open('./innexiaBot/resources/blackbg.jpg')
     draw = ImageDraw.Draw(img)
     image_widthz, image_heightz = img.size
-    pointsize = 500
-    fillcolor = "gold"
+    pointsize = 600
+    fillcolor = "purple"
     shadowcolor = "blue"
     font = ImageFont.truetype("./innexiaBot/resources/Chopsic.otf", 330)
     w, h = draw.textsize(text, font=font)
