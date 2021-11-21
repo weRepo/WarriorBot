@@ -72,40 +72,36 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 
-INNEXIA_IMG = "https://telegra.ph/file/7c4ff0cca8a4ccd7a0b13.jpg"
+INNEXIA_IMG = "https://telegra.ph/file/71c0307d390a94ab0d51c.jpg"
 
 PM_START_TEXT = """
-**ᴛʜᴇ ᴀɴɢᴇʟɪɴᴀ ʀᴏʙᴏᴛ**\n┏━━━━━━━━━━━━━━━━\n╭──────────────\nㅤʜᴇʏ, ɪ ᴀᴍ ᴀɴɢᴇʟɪɴᴀ , ʜᴇʀᴇ ᴛᴏ\nㅤᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ! 🦋[ㅤ](https://telegra.ph/file/f662f60d8aaa650b0b0c4.jpg)\n╰──────────────\n╭──────────────\nㅤᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ᴛᴏ\nㅤᴋɴᴏᴡ ᴀʙᴏᴜᴛ ᴍʏ ғᴜʟʟ ғᴜɴᴄᴛɪᴏɴs.\n╰──────────────\n┗━━━━━━━━━━━━━━━━\n\n[@ᴛᴇᴀᴍᴀɴɢᴇʟɪɴᴀ](http://t.me/angelina_desk)
+**[ᴛʜᴇ ʙᴀʙʏɢɪʀʟ ʀᴏʙᴏᴛ](tg://user?id=2113684711)** [ㅤ](https://telegra.ph/file/f662f60d8aaa650b0b0c4.jpg) ㅤ\n╭──────────────\nㅤʜᴇʏ, ɪ ᴀᴍ ʙᴀʙʏɢɪʀʟ ʜᴇʀᴇ ᴛᴏ\nㅤᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ\n┏━━━━━━━━━━━━━━━━\n┣ ₪ Uptime:\n┣ ₪ X users, across Y chats.
+┗━━━━━━━━━━━━━━━━━\nNeed Help? Use /help\n[@ᴛᴇᴀᴍʙᴀʙʏɢɪʀʟ](http://t.me/BGxDesk)"
 """
 
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="🔥 ᴀᴅᴅ ᴀɴɢᴇʟɪɴᴀ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ! 🦋", url="http://t.me/AngelinaProBot?startgroup=true"),
+            text="※ 𝗔ᴅᴅ ʙᴀʙʏɢɪʀʟ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ! ※", url="http://t.me/BGxBot?startgroup=true"),
     ],
-    
     [
         InlineKeyboardButton(
-            text="ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ 📢 ", url=f"https://t.me/Angelina_Updates"
+            text="⌥ 𝗨ᴘᴅᴀᴛᴇs ", url=f"http://t.me/BGxNews"
         ),
-        InlineKeyboardButton(text="❔ ᴍʏ ɴᴇᴛᴡᴏʀᴋ",url=f"https://t.me/TheWarriorsNetwork"),
-    ],
-    [
-        InlineKeyboardButton(text="⧐ ᴘʀᴏғɪʟᴇ⧏", url=f"tg://settings/"),
         InlineKeyboardButton(
-            text="ϟ ᴄʜᴀᴛ ϟ", url=f"http://t.me/chat_buzz"
+            text="[⍟𝗟ᴏɢs⍟]", url=f"https://t.me/BGxlogs"
         ),
-        InlineKeyboardButton(text="⩥sᴜᴘᴘᴏʀᴛ⩤", url=f"https://t.me/angelina_desk"),
+        InlineKeyboardButton(text="⌥ 𝗦ᴜᴘᴘᴏʀᴛ", url=f"https://t.me/BGxDesk"),
     ],
     [
-  InlineKeyboardButton(text="❔ʜᴇʟᴘ ", callback_data="help_back"),
+  InlineKeyboardButton(text="⎚ 𝗛ᴇʟᴘ ", callback_data="help_back"),
     ],
 ]
 
 HELP_STRINGS = """
 **ꜱᴇᴛᴛɪɴɢꜱ**
-**ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴꜱ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ꜱᴘᴇᴄɪꜰɪᴄ ᴍᴏᴅᴜʟᴇꜱ** [.](https://telegra.ph/file/bf988ab3d73a34d6d8327.jpg)"""
+**ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴꜱ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ꜱᴘᴇᴄɪꜰɪᴄ ᴍᴏᴅᴜʟᴇꜱ** [.](https://telegra.ph/file/040b4084ff4d397d6fb8d.jpg)"""
 
 
 
@@ -443,7 +439,7 @@ def innexia_about_callback(update, context):
         )
     elif query.data == "innexia_support":
         query.message.edit_text(
-            text="**ᴀɴɢᴇʟɪɴᴀ Sᴜᴘᴘᴏʀᴛ**"
+            text="**ʙᴀʙʏɢɪʀʟ Sᴜᴘᴘᴏʀᴛ**"
             "\nJoin Support Group/Channel",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
@@ -833,7 +829,7 @@ def main():
             updater.bot.set_webhook(url=URL + TOKEN)
 
     else:
-        LOGGER.info("Using long polling.")
+        LOGGER.info("Your Bot has been Successfully deployed!")
         updater.start_polling(timeout=15, read_latency=4, clean=True)
 
     if len(argv) not in (1, 3, 4):
