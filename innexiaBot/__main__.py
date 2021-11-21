@@ -75,8 +75,8 @@ def get_readable_time(seconds: int) -> str:
 INNEXIA_IMG = "https://telegra.ph/file/71c0307d390a94ab0d51c.jpg"
 
 PM_START_TEXT = """
-**[ᴛʜᴇ ʙᴀʙʏɢɪʀʟ ʀᴏʙᴏᴛ](tg://user?id=2113684711)** [ㅤ](https://telegra.ph/file/f662f60d8aaa650b0b0c4.jpg) ㅤ\n╭──────────────\nㅤʜᴇʏ, ɪ ᴀᴍ ʙᴀʙʏɢɪʀʟ ʜᴇʀᴇ ᴛᴏ\nㅤᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ\n┏━━━━━━━━━━━━━━━━\n┣ ₪ Uptime:\n┣ ₪ X users, across Y chats.
-┗━━━━━━━━━━━━━━━━━\nNeed Help? Use /help\n[@ᴛᴇᴀᴍʙᴀʙʏɢɪʀʟ](http://t.me/BGxDesk)"
+**[ᴛʜᴇ ʙᴀʙʏɢɪʀʟ ʀᴏʙᴏᴛ](tg://user?id=2113684711)** [ㅤ](https://telegra.ph/file/f662f60d8aaa650b0b0c4.jpg) ㅤ\n╭──────────────\nㅤʜᴇʏ, ɪ ᴀᴍ ʙᴀʙʏɢɪʀʟ ʜᴇʀᴇ ᴛᴏ\nㅤᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ\n╰──────────────\n┏━━━━━━━━━━━━━━━━\n┣ ₪ Uptime:\n┣ ₪ X users, across Y chats.
+┗━━━━━━━━━━━━━━━━━\n\n[@ᴛᴇᴀᴍʙᴀʙʏɢɪʀʟ](http://t.me/BGxDesk)"
 """
 
 
