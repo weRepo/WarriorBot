@@ -72,28 +72,28 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 
-INNEXIA_IMG = "https://telegra.ph/file/71c0307d390a94ab0d51c.jpg"
+INNEXIA_IMG = "https://telegra.ph/file/638e87f9476b7489b7ab6.jpg"
 
 PM_START_TEXT = """
-**[ᴛʜᴇ ʙᴀʙʏɢɪʀʟ ʀᴏʙᴏᴛ](tg://user?id=2113684711)** [ㅤ](https://telegra.ph/file/f662f60d8aaa650b0b0c4.jpg) ㅤ\n╭──────────────\nㅤʜᴇʏ, ɪ ᴀᴍ ʙᴀʙʏɢɪʀʟ ʜᴇʀᴇ ᴛᴏ\nㅤᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ\n╰──────────────\n┏━━━━━━━━━━━━━━━━\n┣ ₪ Uptime:\n┣ ₪ X users, across Y chats.
-┗━━━━━━━━━━━━━━━━━\n\n[@ᴛᴇᴀᴍʙᴀʙʏɢɪʀʟ](http://t.me/BGxDesk)"
+**[ɴᴊᴄ✘ʙᴏᴛ](tg://user?id=5071499251)** [ㅤ](https://telegra.ph/file/5270f1c82a935cb168484.jpg) ㅤ\n╭──────────────\nㅤʜᴇʏ, ɪ ᴀᴍ ɴᴊᴄ , ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ɪɴ\n ᴍᴀɴᴀɢɪɴɢ ʏᴏᴜʀ ɢʀᴏᴜᴘs ᴇᴀsɪʟʏ\n╰──────────────\n┏━━━━━━━━━━━━━━━━\n┣ ₪ Uptime:\n┣ ₪ X users, across Y chats.
+┗━━━━━━━━━━━━━━━━━\n\n[@ᴛᴇᴀᴍ🇽 ](https://t.me/botXdesk)
 """
 
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="※ 𝗔ᴅᴅ ʙᴀʙʏɢɪʀʟ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ! ※", url="http://t.me/BGxBot?startgroup=true"),
+            text="※ 𝗔ᴅᴅ ɴᴊᴄ ʙᴏᴛ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ! ※", url="http://t.me/NjcxBot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(
-            text="⌥ 𝗨ᴘᴅᴀᴛᴇs ", url=f"http://t.me/BGxNews"
+            text="⌥ 𝗨ᴘᴅᴀᴛᴇs ", url=f"http://t.me/botXnews"
         ),
         InlineKeyboardButton(
-            text="[⍟𝗟ᴏɢs⍟]", url=f"https://t.me/BGxlogs"
+            text="[⍟𝗟ᴏɢs⍟]", url=f"https://t.me/botxlog"
         ),
-        InlineKeyboardButton(text="⌥ 𝗦ᴜᴘᴘᴏʀᴛ", url=f"https://t.me/BGxDesk"),
-    ],
+        InlineKeyboardButton(text="⌥ 𝗦ᴜᴘᴘᴏʀᴛ", url=f"https://t.me/BotxDesk"),
+    ], 
     [
   InlineKeyboardButton(text="⎚ 𝗛ᴇʟᴘ ", callback_data="help_back"),
     ],
@@ -101,7 +101,7 @@ buttons = [
 
 HELP_STRINGS = """
 **ꜱᴇᴛᴛɪɴɢꜱ**
-**ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴꜱ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ꜱᴘᴇᴄɪꜰɪᴄ ᴍᴏᴅᴜʟᴇꜱ** [.](https://telegra.ph/file/040b4084ff4d397d6fb8d.jpg)"""
+**ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴꜱ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ꜱᴘᴇᴄɪꜰɪᴄ ᴍᴏᴅᴜʟᴇꜱ** [.](https://telegra.ph/file/86038f5bb153291bff2c4.jpg)"""
 
 
 
@@ -220,7 +220,7 @@ def start(update: Update, context: CallbackContext):
             ),
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="t.me/angelina_desk")]]
+                [[InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="t.me/botXdesk")]]
             ),
         )
         
@@ -352,24 +352,22 @@ def innexia_about_callback(update, context):
     query = update.callback_query
     if query.data == "innexia_":
         query.message.edit_text(
-            text="""𝗔𝗻𝗴𝗲𝗹𝗶𝗻𝗮- A bot to manage your groups with additional features!
-            \nHere's the basic help regarding use of Angelina😍 !
-            
-            \nAlmost all modules usage defined in the help menu, checkout by sending `/help`
-            \nReport error/bugs click the Button""",
+            text="""𝗡𝗝𝗖 - A powerful management bot to manage your groups with additional features!
+            \nHere's the basic help regarding use of 𝗡𝗝𝗖 🔥!\nAlmost all modules usage defined in the help menu, checkout by sending `/help`
+            \nReport error / bugs by clicking the the Button below""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
                         InlineKeyboardButton(
-                            text="Bᴜɢ'ꜱ", url="t.me/angelina_desk"
+                            text="Bᴜɢ'ꜱ", url="t.me/BotXdesk"
                         ),
                         InlineKeyboardButton(
-                            text="Bᴏᴛ Lɪꜱᴛ", url="t.me/TheBG_news"
+                            text="Bᴏᴛ Lɪꜱᴛ", url="t.me/Botxnews"
                         ),
                     ],
-                    [InlineKeyboardButton(text="Back", callback_data="innexia_back")],
+                    [InlineKeyboardButton(text="Back", callback_data="help_back")],
                 ]
             ),
         )
@@ -412,7 +410,7 @@ def innexia_about_callback(update, context):
     elif query.data == "innexia_admin":
         query.message.edit_text(
             text=f"*Let's make your group bit effective now*"
-            f"\nCongragulations, Angelina😍 now ready to manage your group."
+            f"\nCongragulations, NJC is now ready to manage your group."
             f"\n\n*Admin Tools*"
             f"\nBasic Admin tools help you to protect and powerup your group."
             f"\nYou can ban members, Kick members, Promote someone as admin through commands of bot."
@@ -439,7 +437,7 @@ def innexia_about_callback(update, context):
         )
     elif query.data == "innexia_support":
         query.message.edit_text(
-            text="**ʙᴀʙʏɢɪʀʟ Sᴜᴘᴘᴏʀᴛ**"
+            text="**ɴᴊᴄ sᴜᴘᴘᴏʀᴛ**"
             "\nJoin Support Group/Channel",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
@@ -487,7 +485,7 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text="""😬Project Private! Contact My Developer Team at @angelina_desk .""",
+            text="""😬Project Private! Contact My Developer Team at @botxdesk .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -783,7 +781,7 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "🦋 ʀᴇsᴛᴀʀᴛᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ! 💕")
+            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "🦋 ɪ ᴀᴍ ᴏɴʟɪɴᴇ! 🔥")
         except Unauthorized:
             LOGGER.warning(
                 "Bot isnt able to send message to support_chat, go and check!"
